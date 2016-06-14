@@ -17,13 +17,14 @@
 
 
       <form class="form-signin">
-        <h2 class="form-signin-heading">Ingrese sus datos: </h2>
-        <label for="inputUsuario" class="sr-only">Usuario</label>
+        <h2 class="form-signin-heading">Hola. ¿Como te llamas?" </h2>
+
+        <label for="inputUsuario" class="sr-only">Nombre</label>
         <input type="text" id="inputUsuario" class="form-control" placeholder="Nombre Usuario" required autofocus>
-        <label for="inputPassword" class="sr-only">Clave</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Clave" required>
         
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar  </button>
+        <br>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit"> Continuar </button>
       </form>
 
     </div> <!-- /container -->
